@@ -9,8 +9,8 @@
 	\setmainfont{Cambria}
 	\setsansfont{Cambria}
 	\setmonofont[
-		Contextuals={Alternate}	
-	]{Fira Code}
+		Contextuals={Alternate}
+	]{Cascadia Code}
 
 % All ligatures for code listings
 \makeatletter
@@ -42,6 +42,20 @@
 \usepackage{graphicx}
 \graphicspath{ {./img/} }
 
+\title{Развитие общей теории систем}
+\date{Октябрь\\ 2023}
+\author{Смирнов Р. О.,\\ cтудент группы ПМкн1\thanks{3822М1ПМкн1}}
+
 \begin{document}
+\maketitle
+
+\setcounter{page}{2}
 \tableofcontents
+\newpage
+
+\input{inc/01-introduction.tex}
+\input{inc/02-main-part.tex}
+\input{inc/03-conclusion.tex}
+\input{inc/literature}
+
 \end{document}
